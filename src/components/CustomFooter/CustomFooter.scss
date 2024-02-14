@@ -1,0 +1,69 @@
+.custom-footer {
+    display: flex;
+    flex-direction: column;
+    column-gap: 24px;
+    @media screen and (min-width: $md) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__apps {
+        border-radius: 2px;
+        background-color: $gray-1;
+        @media screen and (min-width: $md) {
+            width: 240px;
+            height: 127px;
+        }
+    }
+    &__apps-item {
+        padding: 12px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    &__apps-item-download {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.8px;
+        color: $geekblue-6;
+        border: 0;
+        padding: 0;
+        height: 21px;
+    }
+    &__apps-item-pro {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.2px;
+        color: $gray-7;
+        border: 0;
+        padding: 0;
+        height: 18px;
+    }
+    &__apps-mobile {
+        display: flex;
+        padding: 12px 0;
+        color: $gray-10;
+        font-size: 14px;
+        line-height: 18.2px;
+        border-top: 1px solid $gray-4;
+    }
+    &__apps-mobile .apps-mobile-btn {
+        padding: 0;
+        border: 0;
+        height: 32px;
+    }
+    &__reviews {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        border: 0;
+        color: $geekblue-6;
+        font-size: 16px;
+        line-height: 20.8px;
+        font-weight: 400;
+        @media screen and (min-width: $md) {
+            height: 40px;
+            width: 171px;
+        }
+    }
+}

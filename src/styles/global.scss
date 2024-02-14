@@ -1,0 +1,29 @@
+@import '/node_modules/antd/es/style/index.css';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+* {
+    line-height: 1.3em;
+}
+body {
+    font-family: $body-font-family, sans-serif !important;
+    font-style: normal;
+}
+
+#root {
+    height: 100%;
+}
+.ant-layout {
+    background: transparent;
+}
+.ant-layout-footer {
+    background: transparent;
+}
