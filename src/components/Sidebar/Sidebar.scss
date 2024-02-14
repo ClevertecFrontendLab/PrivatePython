@@ -2,7 +2,6 @@
     width: 0;
     height: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
     &__menu .anticon {
         color: $geekblue-6;
         path {
@@ -59,6 +58,10 @@
     position: fixed;
     height: 100vh;
     z-index: 10;
+    @media screen and (max-width: 833px) {
+        -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.15));
+        filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.15));
+    }
     @media screen and (min-width: $md) {
         position: relative;
         display: block;
@@ -71,7 +74,7 @@
     width: 32px;
     background: $gray-1;
     clip-path: polygon(0 0, 100% 12.5%, 100% 87.5%, 0% 100%);
-    box-shadow: 0 px 8px 0 rgba(240, 4, 4, 0.15);
+
     @media screen and (min-width: $md) {
         margin: 0;
         position: absolute;
