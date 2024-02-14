@@ -1,0 +1,64 @@
+.custom-header {
+    display: flex;
+    flex-direction: column;
+    &__breadcrumbs {
+        color: $gray-10;
+        line-height: normal;
+        width: fit-content;
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__content-title {
+        color: $gray-10;
+        padding: 6px 4px 6px 0;
+        margin: 0;
+        font-size: 20px;
+        @media screen and (min-width: $md) {
+            font-size: 24px;
+        }
+        @media screen and (min-width: $lg) {
+            font-size: 38px;
+            font-weight: 700;
+        }
+    }
+    &__settings-button {
+        $size: 32px;
+        display: flex;
+        width: $size;
+        height: $size;
+        padding: $indent;
+        background-color: $white;
+        border: solid 1px $gray-5;
+        border-radius: 50%;
+        @media screen and (min-width: $md) {
+            background: none;
+            border: 0;
+            width: 105px;
+        }
+        @media screen and (min-width: $lg) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 129px;
+            padding: 7px 15px;
+        }
+    }
+    &__settings-button span:last-child {
+        display: none;
+        @media screen and (min-width: $md) {
+            display: block;
+        }
+    }
+}
+.anticon.settings-icon {
+    @media screen and (min-width: $md) {
+        display: none;
+        padding: 7px 15px;
+    }
+    @media screen and (min-width: $lg) {
+        display: block;
+    }
+}

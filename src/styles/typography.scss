@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Thin.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Thin.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-Thin.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-ExtraLight.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-ExtraLight.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-ExtraLight.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Light.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Light.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-Light.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-Regular.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Medium.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Medium.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-Medium.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-SemiBold.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-SemiBold.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-SemiBold.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Bold.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Bold.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-Bold.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-ExtraBold.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-ExtraBold.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-ExtraBold.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Black.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Black.ttf?#iefix') format('embedded-opentype'),
+        url('./fonts/Inter-Black.ttf') format('opentype'); /* Super Modern Browsers */
+
+    font-weight: 900;
+    font-style: normal;
+}
